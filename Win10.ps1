@@ -32,7 +32,7 @@ $tweaks = @(
 	### Security Tweaks ###
 	# "SetUACLow",                  # "SetUACHigh",
 	# "EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
-	"DisableAdminShares",           # "EnableAdminShares",
+	# "DisableAdminShares",           # "EnableAdminShares",
 	# "DisableSMB1",                # "EnableSMB1",
 	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
 	# "SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
@@ -42,8 +42,8 @@ $tweaks = @(
 	# "DisableDefender",            # "EnableDefender",
 	# "DisableDefenderCloud",       # "EnableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
-	"SetDEPOptOut",                 # "SetDEPOptIn",
-	"DisableScriptHost",            # "EnableScriptHost",
+	# "SetDEPOptOut",                 # "SetDEPOptIn",
+	# "DisableScriptHost",            # "EnableScriptHost",
 	# "EnableMeltdownCompatFlag"    # "DisableMeltdownCompatFlag",
 
 	### Service Tweaks ###
@@ -83,11 +83,11 @@ $tweaks = @(
 	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
 	"ShowTrayIcons",                # "HideTrayIcons",
 	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
-	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
+	# "DisableNewAppPrompt",        # "EnableNewAppPrompt",
 	# "SetControlPanelViewIcons",   # "SetControlPanelViewCategories",
 	"SetVisualFXPerformance",       # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
-	# "EnableNumlock",              # "DisableNumlock",
+	"EnableNumlock",                # "DisableNumlock",
 
 	### Explorer UI Tweaks ###
 	"ShowKnownExtensions",          # "HideKnownExtensions",
@@ -112,7 +112,7 @@ $tweaks = @(
 	"Hide3DObjectsFromThisPC",      # "Show3DObjectsInThisPC",
 	# "Hide3DObjectsFromExplorer",  # "Show3DObjectsInExplorer",
 	# "DisableThumbnails",          # "EnableThumbnails",
-	"DisableThumbsDB",              # "EnableThumbsDB",
+	# "DisableThumbsDB",              # "EnableThumbsDB",
 
 	### Application Tweaks ###
 	"DisableOneDrive",              # "EnableOneDrive",
@@ -122,15 +122,15 @@ $tweaks = @(
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
 	"DisableXboxFeatures",          # "EnableXboxFeatures",
 	"DisableAdobeFlash",            # "EnableAdobeFlash",
-	# "UninstallMediaPlayer",       # "InstallMediaPlayer",
+	"UninstallMediaPlayer",       # "InstallMediaPlayer",
 	# "UninstallWorkFolders",       # "InstallWorkFolders",
-	# "InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
+	"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
 	# "InstallHyperV",              # "UninstallHyperV",
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	# "UninstallPDFPrinter",        # "InstallPDFPrinter",
 	"UninstallXPSPrinter",          # "InstallXPSPrinter",
-	"RemoveFaxPrinter",             # "AddFaxPrinter",
+	# "RemoveFaxPrinter",             # "AddFaxPrinter",
 
 	### Server Specific Tweaks ###
 	# "HideServerManagerOnLogin",   # "ShowServerManagerOnLogin",
